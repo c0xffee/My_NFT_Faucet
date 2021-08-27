@@ -1,0 +1,37 @@
+seed:testnet:there element dish sing salmon pig tape tomato expose oak prosper primary
+walle
+
+
+
+
+
+
+
+
+
+bchtest:qq5t63turtgp8usq5cyxr4uea8qdcgcetgzu6lhrfc
+
+
+
+
+
+
+await wallet.send([
+  {
+    cashaddr: tar,
+    value: now['sat'],
+    unit: 'sat',
+  }
+]);
+
+// or alternatively
+const txData = await wallet.send([seller.getDepositAddress(), 0.01, 'usd']);
+const txData = await wallet.send(["bchtest:qpy38cwev0qn7ustmyqs47ylpe2t0msxcg0pc9vda9", 0.00001, 'bch']);
+const txData = await wallet.send([tar, 1000, 'sat']);
+
+
+
+await wallet.sendMax(tar);
+
+
+
